@@ -1,0 +1,764 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AppNew.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:App.Fakes.ShimCompany">
+            <summary>Shim type of App.Company</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCompany.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCompany.#ctor(App.Company)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:App.Fakes.ShimCompany.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompany.AllInstances.ClassificationGet">
+            <summary>Sets the shim of Company.get_Classification()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompany.AllInstances.ClassificationSetClassification">
+            <summary>Sets the shim of Company.set_Classification(Classification value)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompany.AllInstances.IdGet">
+            <summary>Sets the shim of Company.get_Id()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompany.AllInstances.IdSetInt32">
+            <summary>Sets the shim of Company.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompany.AllInstances.NameGet">
+            <summary>Sets the shim of Company.get_Name()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompany.AllInstances.NameSetString">
+            <summary>Sets the shim of Company.set_Name(String value)</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCompany.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCompany.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompany.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompany.ClassificationGet">
+            <summary>Sets the shim of Company.get_Classification()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompany.ClassificationSetClassification">
+            <summary>Sets the shim of Company.set_Classification(Classification value)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompany.Constructor">
+            <summary>Sets the shim of Company.Company()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompany.IdGet">
+            <summary>Sets the shim of Company.get_Id()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompany.IdSetInt32">
+            <summary>Sets the shim of Company.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompany.NameGet">
+            <summary>Sets the shim of Company.get_Name()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompany.NameSetString">
+            <summary>Sets the shim of Company.set_Name(String value)</summary>
+        </member>
+        <member name="T:App.Fakes.ShimCompanyRepository">
+            <summary>Shim type of App.CompanyRepository</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCompanyRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCompanyRepository.#ctor(App.CompanyRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:App.Fakes.ShimCompanyRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompanyRepository.AllInstances.GetByIdInt32">
+            <summary>Sets the shim of CompanyRepository.GetById(Int32 id)</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCompanyRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCompanyRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompanyRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCompanyRepository.Bind(App.ICompanyRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompanyRepository.Constructor">
+            <summary>Sets the shim of CompanyRepository.CompanyRepository()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompanyRepository.GetByIdInt32">
+            <summary>Sets the shim of CompanyRepository.GetById(Int32 id)</summary>
+        </member>
+        <member name="T:App.Fakes.ShimCompanyService">
+            <summary>Shim type of App.CompanyService</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCompanyService.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCompanyService.#ctor(App.CompanyService)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:App.Fakes.ShimCompanyService.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompanyService.AllInstances.GetByIdInt32">
+            <summary>Sets the shim of CompanyService.GetById(Int32 id)</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCompanyService.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCompanyService.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompanyService.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompanyService.ConstructorICompanyRepository">
+            <summary>Sets the shim of CompanyService.CompanyService(ICompanyRepository companyRepository)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCompanyService.GetByIdInt32">
+            <summary>Sets the shim of CompanyService.GetById(Int32 id)</summary>
+        </member>
+        <member name="T:App.Fakes.ShimCustomer">
+            <summary>Shim type of App.Customer</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomer.#ctor(App.Customer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:App.Fakes.ShimCustomer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.AllInstances.CompanyGet">
+            <summary>Sets the shim of Customer.get_Company()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.AllInstances.CompanySetCompany">
+            <summary>Sets the shim of Customer.set_Company(Company value)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.AllInstances.CreditLimitGet">
+            <summary>Sets the shim of Customer.get_CreditLimit()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.AllInstances.CreditLimitSetInt32">
+            <summary>Sets the shim of Customer.set_CreditLimit(Int32 value)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.AllInstances.DateOfBirthGet">
+            <summary>Sets the shim of Customer.get_DateOfBirth()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.AllInstances.DateOfBirthSetDateTime">
+            <summary>Sets the shim of Customer.set_DateOfBirth(DateTime value)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.AllInstances.EmailAddressGet">
+            <summary>Sets the shim of Customer.get_EmailAddress()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.AllInstances.EmailAddressSetString">
+            <summary>Sets the shim of Customer.set_EmailAddress(String value)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.AllInstances.FirstnameGet">
+            <summary>Sets the shim of Customer.get_Firstname()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.AllInstances.FirstnameSetString">
+            <summary>Sets the shim of Customer.set_Firstname(String value)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.AllInstances.HasCreditLimitGet">
+            <summary>Sets the shim of Customer.get_HasCreditLimit()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.AllInstances.HasCreditLimitSetBoolean">
+            <summary>Sets the shim of Customer.set_HasCreditLimit(Boolean value)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.AllInstances.IdGet">
+            <summary>Sets the shim of Customer.get_Id()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.AllInstances.IdSetInt32">
+            <summary>Sets the shim of Customer.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.AllInstances.SurnameGet">
+            <summary>Sets the shim of Customer.get_Surname()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.AllInstances.SurnameSetString">
+            <summary>Sets the shim of Customer.set_Surname(String value)</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.CompanyGet">
+            <summary>Sets the shim of Customer.get_Company()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.CompanySetCompany">
+            <summary>Sets the shim of Customer.set_Company(Company value)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.Constructor">
+            <summary>Sets the shim of Customer.Customer()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.CreditLimitGet">
+            <summary>Sets the shim of Customer.get_CreditLimit()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.CreditLimitSetInt32">
+            <summary>Sets the shim of Customer.set_CreditLimit(Int32 value)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.DateOfBirthGet">
+            <summary>Sets the shim of Customer.get_DateOfBirth()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.DateOfBirthSetDateTime">
+            <summary>Sets the shim of Customer.set_DateOfBirth(DateTime value)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.EmailAddressGet">
+            <summary>Sets the shim of Customer.get_EmailAddress()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.EmailAddressSetString">
+            <summary>Sets the shim of Customer.set_EmailAddress(String value)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.FirstnameGet">
+            <summary>Sets the shim of Customer.get_Firstname()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.FirstnameSetString">
+            <summary>Sets the shim of Customer.set_Firstname(String value)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.HasCreditLimitGet">
+            <summary>Sets the shim of Customer.get_HasCreditLimit()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.HasCreditLimitSetBoolean">
+            <summary>Sets the shim of Customer.set_HasCreditLimit(Boolean value)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.IdGet">
+            <summary>Sets the shim of Customer.get_Id()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.IdSetInt32">
+            <summary>Sets the shim of Customer.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.SurnameGet">
+            <summary>Sets the shim of Customer.get_Surname()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomer.SurnameSetString">
+            <summary>Sets the shim of Customer.set_Surname(String value)</summary>
+        </member>
+        <member name="T:App.Fakes.ShimCustomerCreditServiceClient">
+            <summary>Shim type of App.CustomerCreditServiceClient</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerCreditServiceClient.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerCreditServiceClient.#ctor(App.CustomerCreditServiceClient)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:App.Fakes.ShimCustomerCreditServiceClient.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerCreditServiceClient.AllInstances.GetCreditLimitStringStringDateTime">
+            <summary>Sets the shim of CustomerCreditServiceClient.GetCreditLimit(String firstname, String surname, DateTime dateOfBirth)</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerCreditServiceClient.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerCreditServiceClient.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerCreditServiceClient.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerCreditServiceClient.Bind(App.ICustomerCreditService)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerCreditServiceClient.Bind(System.ServiceModel.ICommunicationObject)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerCreditServiceClient.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerCreditServiceClient.Constructor">
+            <summary>Sets the shim of CustomerCreditServiceClient.CustomerCreditServiceClient()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerCreditServiceClient.ConstructorBindingEndpointAddress">
+            <summary>Sets the shim of CustomerCreditServiceClient.CustomerCreditServiceClient(Binding binding, EndpointAddress remoteAddress)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerCreditServiceClient.ConstructorString">
+            <summary>Sets the shim of CustomerCreditServiceClient.CustomerCreditServiceClient(String endpointConfigurationName)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerCreditServiceClient.ConstructorStringEndpointAddress">
+            <summary>Sets the shim of CustomerCreditServiceClient.CustomerCreditServiceClient(String endpointConfigurationName, EndpointAddress remoteAddress)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerCreditServiceClient.ConstructorStringString">
+            <summary>Sets the shim of CustomerCreditServiceClient.CustomerCreditServiceClient(String endpointConfigurationName, String remoteAddress)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerCreditServiceClient.GetCreditLimitStringStringDateTime">
+            <summary>Sets the shim of CustomerCreditServiceClient.GetCreditLimit(String firstname, String surname, DateTime dateOfBirth)</summary>
+        </member>
+        <member name="T:App.Fakes.ShimCustomerCreditServiceWrapper">
+            <summary>Shim type of App.CustomerCreditServiceWrapper</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerCreditServiceWrapper.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerCreditServiceWrapper.#ctor(App.CustomerCreditServiceWrapper)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:App.Fakes.ShimCustomerCreditServiceWrapper.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerCreditServiceWrapper.AllInstances.GetCreditLimitCustomer">
+            <summary>Sets the shim of CustomerCreditServiceWrapper.GetCreditLimit(Customer customer)</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerCreditServiceWrapper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerCreditServiceWrapper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerCreditServiceWrapper.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerCreditServiceWrapper.Bind(App.ICustomerCreditServiceWrapper)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerCreditServiceWrapper.Constructor">
+            <summary>Sets the shim of CustomerCreditServiceWrapper.CustomerCreditServiceWrapper()</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerCreditServiceWrapper.GetCreditLimitCustomer">
+            <summary>Sets the shim of CustomerCreditServiceWrapper.GetCreditLimit(Customer customer)</summary>
+        </member>
+        <member name="T:App.Fakes.ShimCustomerDataAccess">
+            <summary>Shim type of App.CustomerDataAccess</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerDataAccess.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerDataAccess.AddCustomerCustomer">
+            <summary>Sets the shim of CustomerDataAccess.AddCustomer(Customer customer)</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerDataAccess.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerDataAccess.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerDataAccess.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="T:App.Fakes.ShimCustomerService">
+            <summary>Shim type of App.CustomerService</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerService.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerService.#ctor(App.CustomerService)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerService.AddCustomerCustomer">
+            <summary>Sets the shim of CustomerService.AddCustomer(Customer customer)</summary>
+        </member>
+        <member name="T:App.Fakes.ShimCustomerService.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerService.AllInstances.AddCustomerCustomer">
+            <summary>Sets the shim of CustomerService.AddCustomer(Customer customer)</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerService.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:App.Fakes.ShimCustomerService.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerService.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerService.ConstructorICustomerCreditServiceWrapper">
+            <summary>Sets the shim of CustomerService.CustomerService(ICustomerCreditServiceWrapper customerCreditServiceWrapper)</summary>
+        </member>
+        <member name="P:App.Fakes.ShimCustomerService.calculateAgeCustomer">
+            <summary>Sets the shim of CustomerService.calculateAge(Customer customer)</summary>
+        </member>
+        <member name="T:App.Fakes.StubCompany">
+            <summary>Stub type of App.Company</summary>
+        </member>
+        <member name="M:App.Fakes.StubCompany.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:App.Fakes.StubCompany.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:App.Fakes.StubCompany.InitializeStub">
+            <summary>Initializes a new instance of type StubCompany</summary>
+        </member>
+        <member name="P:App.Fakes.StubCompany.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:App.Fakes.StubCompany.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:App.Fakes.StubCompanyRepository">
+            <summary>Stub type of App.CompanyRepository</summary>
+        </member>
+        <member name="M:App.Fakes.StubCompanyRepository.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:App.Fakes.StubCompanyRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:App.Fakes.StubCompanyRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubCompanyRepository</summary>
+        </member>
+        <member name="P:App.Fakes.StubCompanyRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:App.Fakes.StubCompanyRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:App.Fakes.StubCompanyService">
+            <summary>Stub type of App.CompanyService</summary>
+        </member>
+        <member name="M:App.Fakes.StubCompanyService.#ctor(App.ICompanyRepository)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:App.Fakes.StubCompanyService.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:App.Fakes.StubCompanyService.InitializeStub">
+            <summary>Initializes a new instance of type StubCompanyService</summary>
+        </member>
+        <member name="P:App.Fakes.StubCompanyService.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:App.Fakes.StubCompanyService.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:App.Fakes.StubCustomer">
+            <summary>Stub type of App.Customer</summary>
+        </member>
+        <member name="M:App.Fakes.StubCustomer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:App.Fakes.StubCustomer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:App.Fakes.StubCustomer.InitializeStub">
+            <summary>Initializes a new instance of type StubCustomer</summary>
+        </member>
+        <member name="P:App.Fakes.StubCustomer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:App.Fakes.StubCustomer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:App.Fakes.StubCustomerCreditServiceClient">
+            <summary>Stub type of App.CustomerCreditServiceClient</summary>
+        </member>
+        <member name="M:App.Fakes.StubCustomerCreditServiceClient.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:App.Fakes.StubCustomerCreditServiceClient.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:App.Fakes.StubCustomerCreditServiceClient.#ctor(System.ServiceModel.Channels.Binding,System.ServiceModel.EndpointAddress)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:App.Fakes.StubCustomerCreditServiceClient.#ctor(System.String,System.ServiceModel.EndpointAddress)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:App.Fakes.StubCustomerCreditServiceClient.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:App.Fakes.StubCustomerCreditServiceClient.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:App.Fakes.StubCustomerCreditServiceClient.CreateChannel">
+            <summary>Sets the stub of ClientBase`1.CreateChannel()</summary>
+        </member>
+        <member name="F:App.Fakes.StubCustomerCreditServiceClient.CreateChannel01">
+            <summary>Sets the stub of ClientBase`1.CreateChannel()</summary>
+        </member>
+        <member name="M:App.Fakes.StubCustomerCreditServiceClient.InitializeStub">
+            <summary>Initializes a new instance of type StubCustomerCreditServiceClient</summary>
+        </member>
+        <member name="P:App.Fakes.StubCustomerCreditServiceClient.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:App.Fakes.StubCustomerCreditServiceClient.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:App.Fakes.StubCustomerCreditServiceWrapper">
+            <summary>Stub type of App.CustomerCreditServiceWrapper</summary>
+        </member>
+        <member name="M:App.Fakes.StubCustomerCreditServiceWrapper.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:App.Fakes.StubCustomerCreditServiceWrapper.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:App.Fakes.StubCustomerCreditServiceWrapper.InitializeStub">
+            <summary>Initializes a new instance of type StubCustomerCreditServiceWrapper</summary>
+        </member>
+        <member name="P:App.Fakes.StubCustomerCreditServiceWrapper.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:App.Fakes.StubCustomerCreditServiceWrapper.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:App.Fakes.StubCustomerService">
+            <summary>Stub type of App.CustomerService</summary>
+        </member>
+        <member name="M:App.Fakes.StubCustomerService.#ctor(App.ICustomerCreditServiceWrapper)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:App.Fakes.StubCustomerService.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:App.Fakes.StubCustomerService.InitializeStub">
+            <summary>Initializes a new instance of type StubCustomerService</summary>
+        </member>
+        <member name="P:App.Fakes.StubCustomerService.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:App.Fakes.StubCustomerService.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:App.Fakes.StubICompanyRepository">
+            <summary>Stub type of App.ICompanyRepository</summary>
+        </member>
+        <member name="M:App.Fakes.StubICompanyRepository.#ctor">
+            <summary>Initializes a new instance of type StubICompanyRepository</summary>
+        </member>
+        <member name="M:App.Fakes.StubICompanyRepository.App#ICompanyRepository#GetById(System.Int32)">
+            <summary>Sets the stub of ICompanyRepository.GetById(Int32 id)</summary>
+        </member>
+        <member name="F:App.Fakes.StubICompanyRepository.GetByIdInt32">
+            <summary>Sets the stub of ICompanyRepository.GetById(Int32 id)</summary>
+        </member>
+        <member name="T:App.Fakes.StubICustomerCreditService">
+            <summary>Stub type of App.ICustomerCreditService</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditService.#ctor">
+            <summary>Initializes a new instance of type StubICustomerCreditService</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditService.App#ICustomerCreditService#GetCreditLimit(System.String,System.String,System.DateTime)">
+            <summary>Sets the stub of ICustomerCreditService.GetCreditLimit(String firstname, String surname, DateTime dateOfBirth)</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditService.GetCreditLimitStringStringDateTime">
+            <summary>Sets the stub of ICustomerCreditService.GetCreditLimit(String firstname, String surname, DateTime dateOfBirth)</summary>
+        </member>
+        <member name="T:App.Fakes.StubICustomerCreditServiceChannel">
+            <summary>Stub type of App.ICustomerCreditServiceChannel</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.#ctor">
+            <summary>Initializes a new instance of type StubICustomerCreditServiceChannel</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.Abort">
+            <summary>Sets the stub of ICommunicationObject.Abort()</summary>
+        </member>
+        <member name="P:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#IClientChannel#AllowInitializationUI">
+            <summary>Sets the stub of IClientChannel.get_AllowInitializationUI()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.AllowInitializationUIGet">
+            <summary>Sets the stub of IClientChannel.get_AllowInitializationUI()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.AllowInitializationUISetBoolean">
+            <summary>Sets the stub of IClientChannel.set_AllowInitializationUI(Boolean value)</summary>
+        </member>
+        <member name="P:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#IContextChannel#AllowOutputBatching">
+            <summary>Sets the stub of IContextChannel.get_AllowOutputBatching()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.AllowOutputBatchingGet">
+            <summary>Sets the stub of IContextChannel.get_AllowOutputBatching()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.AllowOutputBatchingSetBoolean">
+            <summary>Sets the stub of IContextChannel.set_AllowOutputBatching(Boolean value)</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.App#ICustomerCreditService#GetCreditLimit(System.String,System.String,System.DateTime)">
+            <summary>Sets the stub of ICustomerCreditService.GetCreditLimit(String firstname, String surname, DateTime dateOfBirth)</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.AttachBackingFieldToAllowInitializationUI">
+            <summary>Attaches delegates to emulate StubICustomerCreditServiceChannel.AllowInitializationUI as a property with a backing field.</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.AttachBackingFieldToAllowOutputBatching">
+            <summary>Attaches delegates to emulate StubICustomerCreditServiceChannel.AllowOutputBatching as a property with a backing field.</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.AttachBackingFieldToOperationTimeout">
+            <summary>Attaches delegates to emulate StubICustomerCreditServiceChannel.OperationTimeout as a property with a backing field.</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.BeginCloseAsyncCallbackObject">
+            <summary>Sets the stub of ICommunicationObject.BeginClose(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.BeginCloseTimeSpanAsyncCallbackObject">
+            <summary>Sets the stub of ICommunicationObject.BeginClose(TimeSpan timeout, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.BeginDisplayInitializationUIAsyncCallbackObject">
+            <summary>Sets the stub of IClientChannel.BeginDisplayInitializationUI(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.BeginOpenAsyncCallbackObject">
+            <summary>Sets the stub of ICommunicationObject.BeginOpen(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.BeginOpenTimeSpanAsyncCallbackObject">
+            <summary>Sets the stub of ICommunicationObject.BeginOpen(TimeSpan timeout, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.Close">
+            <summary>Sets the stub of ICommunicationObject.Close()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.CloseTimeSpan">
+            <summary>Sets the stub of ICommunicationObject.Close(TimeSpan timeout)</summary>
+        </member>
+        <member name="P:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#IClientChannel#DidInteractiveInitialization">
+            <summary>Sets the stub of IClientChannel.get_DidInteractiveInitialization()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.DidInteractiveInitializationGet">
+            <summary>Sets the stub of IClientChannel.get_DidInteractiveInitialization()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.DisplayInitializationUI">
+            <summary>Sets the stub of IClientChannel.DisplayInitializationUI()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.EndCloseIAsyncResult">
+            <summary>Sets the stub of ICommunicationObject.EndClose(IAsyncResult result)</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.EndDisplayInitializationUIIAsyncResult">
+            <summary>Sets the stub of IClientChannel.EndDisplayInitializationUI(IAsyncResult result)</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.EndOpenIAsyncResult">
+            <summary>Sets the stub of ICommunicationObject.EndOpen(IAsyncResult result)</summary>
+        </member>
+        <member name="P:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#IExtensibleObject{System#ServiceModel#IContextChannel}#Extensions">
+            <summary>Sets the stub of IExtensibleObject`1.get_Extensions()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.ExtensionsGet">
+            <summary>Sets the stub of IExtensibleObject`1.get_Extensions()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.GetCreditLimitStringStringDateTime">
+            <summary>Sets the stub of ICustomerCreditService.GetCreditLimit(String firstname, String surname, DateTime dateOfBirth)</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.GetPropertyOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0})">
+            <summary>Sets stubs of GetProperty()</summary>
+        </member>
+        <member name="P:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#IContextChannel#InputSession">
+            <summary>Sets the stub of IContextChannel.get_InputSession()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.InputSessionGet">
+            <summary>Sets the stub of IContextChannel.get_InputSession()</summary>
+        </member>
+        <member name="P:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#IContextChannel#LocalAddress">
+            <summary>Sets the stub of IContextChannel.get_LocalAddress()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.LocalAddressGet">
+            <summary>Sets the stub of IContextChannel.get_LocalAddress()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.Open">
+            <summary>Sets the stub of ICommunicationObject.Open()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.OpenTimeSpan">
+            <summary>Sets the stub of ICommunicationObject.Open(TimeSpan timeout)</summary>
+        </member>
+        <member name="P:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#IContextChannel#OperationTimeout">
+            <summary>Sets the stub of IContextChannel.get_OperationTimeout()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.OperationTimeoutGet">
+            <summary>Sets the stub of IContextChannel.get_OperationTimeout()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.OperationTimeoutSetTimeSpan">
+            <summary>Sets the stub of IContextChannel.set_OperationTimeout(TimeSpan value)</summary>
+        </member>
+        <member name="P:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#IContextChannel#OutputSession">
+            <summary>Sets the stub of IContextChannel.get_OutputSession()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.OutputSessionGet">
+            <summary>Sets the stub of IContextChannel.get_OutputSession()</summary>
+        </member>
+        <member name="P:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#IContextChannel#RemoteAddress">
+            <summary>Sets the stub of IContextChannel.get_RemoteAddress()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.RemoteAddressGet">
+            <summary>Sets the stub of IContextChannel.get_RemoteAddress()</summary>
+        </member>
+        <member name="P:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#IContextChannel#SessionId">
+            <summary>Sets the stub of IContextChannel.get_SessionId()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.SessionIdGet">
+            <summary>Sets the stub of IContextChannel.get_SessionId()</summary>
+        </member>
+        <member name="P:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#ICommunicationObject#State">
+            <summary>Sets the stub of ICommunicationObject.get_State()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.StateGet">
+            <summary>Sets the stub of ICommunicationObject.get_State()</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.System#IDisposable#Dispose">
+            <summary>Sets the stub of IDisposable.Dispose()</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#Channels#IChannel#GetProperty``1">
+            <summary>Sets the stub of IChannel.GetProperty()</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#IClientChannel#BeginDisplayInitializationUI(System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of IClientChannel.BeginDisplayInitializationUI(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#IClientChannel#DisplayInitializationUI">
+            <summary>Sets the stub of IClientChannel.DisplayInitializationUI()</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#IClientChannel#EndDisplayInitializationUI(System.IAsyncResult)">
+            <summary>Sets the stub of IClientChannel.EndDisplayInitializationUI(IAsyncResult result)</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#ICommunicationObject#Abort">
+            <summary>Sets the stub of ICommunicationObject.Abort()</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#ICommunicationObject#BeginClose(System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of ICommunicationObject.BeginClose(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#ICommunicationObject#BeginClose(System.TimeSpan,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of ICommunicationObject.BeginClose(TimeSpan timeout, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#ICommunicationObject#BeginOpen(System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of ICommunicationObject.BeginOpen(AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#ICommunicationObject#BeginOpen(System.TimeSpan,System.AsyncCallback,System.Object)">
+            <summary>Sets the stub of ICommunicationObject.BeginOpen(TimeSpan timeout, AsyncCallback callback, Object state)</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#ICommunicationObject#Close">
+            <summary>Sets the stub of ICommunicationObject.Close()</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#ICommunicationObject#Close(System.TimeSpan)">
+            <summary>Sets the stub of ICommunicationObject.Close(TimeSpan timeout)</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#ICommunicationObject#EndClose(System.IAsyncResult)">
+            <summary>Sets the stub of ICommunicationObject.EndClose(IAsyncResult result)</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#ICommunicationObject#EndOpen(System.IAsyncResult)">
+            <summary>Sets the stub of ICommunicationObject.EndOpen(IAsyncResult result)</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#ICommunicationObject#Open">
+            <summary>Sets the stub of ICommunicationObject.Open()</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#ICommunicationObject#Open(System.TimeSpan)">
+            <summary>Sets the stub of ICommunicationObject.Open(TimeSpan timeout)</summary>
+        </member>
+        <member name="P:App.Fakes.StubICustomerCreditServiceChannel.System#ServiceModel#IClientChannel#Via">
+            <summary>Sets the stub of IClientChannel.get_Via()</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceChannel.ViaGet">
+            <summary>Sets the stub of IClientChannel.get_Via()</summary>
+        </member>
+        <member name="T:App.Fakes.StubICustomerCreditServiceWrapper">
+            <summary>Stub type of App.ICustomerCreditServiceWrapper</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceWrapper.#ctor">
+            <summary>Initializes a new instance of type StubICustomerCreditServiceWrapper</summary>
+        </member>
+        <member name="M:App.Fakes.StubICustomerCreditServiceWrapper.App#ICustomerCreditServiceWrapper#GetCreditLimit(App.Customer)">
+            <summary>Sets the stub of ICustomerCreditServiceWrapper.GetCreditLimit(Customer customer)</summary>
+        </member>
+        <member name="F:App.Fakes.StubICustomerCreditServiceWrapper.GetCreditLimitCustomer">
+            <summary>Sets the stub of ICustomerCreditServiceWrapper.GetCreditLimit(Customer customer)</summary>
+        </member>
+    </members>
+</doc>

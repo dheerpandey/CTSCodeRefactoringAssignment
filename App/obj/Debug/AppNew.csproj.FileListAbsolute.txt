@@ -1,0 +1,5 @@
+C:\Users\Dheerendra\Desktop\Doc\App\AppNew\bin\Debug\AppNew.dll
+C:\Users\Dheerendra\Desktop\Doc\App\AppNew\bin\Debug\AppNew.pdb
+C:\Users\Dheerendra\Desktop\Doc\App\AppNew\obj\Debug\AppNew.csprojResolveAssemblyReference.cache
+C:\Users\Dheerendra\Desktop\Doc\App\AppNew\obj\Debug\AppNew.dll
+C:\Users\Dheerendra\Desktop\Doc\App\AppNew\obj\Debug\AppNew.pdb

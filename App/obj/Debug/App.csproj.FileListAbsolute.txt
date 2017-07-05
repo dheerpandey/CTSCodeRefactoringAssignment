@@ -1,0 +1,8 @@
+C:\Users\Dheerendra\Desktop\Doc\App\AppNew\bin\Debug\AppNew.dll
+C:\Users\Dheerendra\Desktop\Doc\App\AppNew\bin\Debug\AppNew.pdb
+C:\Users\Dheerendra\Desktop\Doc\App\AppNew\obj\Debug\AppNew.dll
+C:\Users\Dheerendra\Desktop\Doc\App\AppNew\obj\Debug\AppNew.pdb
+E:\mysandbox\vs2017\App\App\bin\Debug\AppNew.dll
+E:\mysandbox\vs2017\App\App\bin\Debug\AppNew.pdb
+E:\mysandbox\vs2017\App\App\obj\Debug\AppNew.dll
+E:\mysandbox\vs2017\App\App\obj\Debug\AppNew.pdb
